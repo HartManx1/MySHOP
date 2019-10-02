@@ -1,0 +1,36 @@
+.intro {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+button {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    border: 3px solid black;
+    background: none;
+    margin: 20px;
+    outline: 0;
+}
+
+button:active {
+	box-shadow: 1px 2px 2px 2px black;
+	border: none;
+}
+
+.photo {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+    margin: -259px -158px;
+}
+
+.Slogan {
+    
+}

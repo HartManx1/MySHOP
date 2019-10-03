@@ -6,12 +6,37 @@
     <meta name="theme-color" content="#000000">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <title>MySHOP</title>
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDDSQwv-5s54IGu9yIBom6BWjsslCqsBVY",
+    authDomain: "myshop-51128.firebaseapp.com",
+    databaseURL: "https://myshop-51128.firebaseio.com",
+    projectId: "myshop-51128",
+    storageBucket: "",
+    messagingSenderId: "953439502328",
+    appId: "1:953439502328:web:15b1042a14c42bade8e00d",
+    measurementId: "G-FEM3Q8MV5D"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     
   </body>
 </html>

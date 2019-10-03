@@ -6,12 +6,12 @@ import introimg from '../../img/intrologo.png'
 
 export const Header = props => {
   return (
-    
-      <div>
-        <a class="logo" href="/home">
-          <img src={introimg} alt="Welcome" />
-        </a>
-      
+
+    <div>
+      <a class="logo" href="/home">
+        <img src={introimg} alt="Welcome" />
+      </a>
+
       <nav>
         <NavLink exact to="/" activeClassName="active">
           <button>X</button>
@@ -27,6 +27,12 @@ export const Header = props => {
         </NavLink>
         <NavLink exact to="/regulations" activeClassName="active">
           REGULATIONS
+        </NavLink>
+        <NavLink exact to="/cart" activeClassName="active" class="ml-auto">
+          <button>
+          <i class="fas fa-shopping-cart"></i>
+          My cart
+          </button>
         </NavLink>
       </nav>
     </div>

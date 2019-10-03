@@ -12,7 +12,7 @@ const WelcomePage = (props) => {
 
       <img src={introback} className="photo" alt="Welcome" />
       <a class="logo" href="/home">
-        <button href="/home">Just click</button>
+        <button class="intro_button" href="/home">Just click</button>
       </a>
     </div>
   );

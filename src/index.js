@@ -15,33 +15,34 @@ import Footer from './components/Footer/Footer';
 
 import ProductsList from './components/ProductList/ProductList';
 import Details from './components/ProductList/Details';
-import Cart from './components/ProductList/Cart';
+import Cart from './components/Cart/Cart';
 import Default from './components/ProductList/Default';
-import {ProductProvider} from './components/ProductList/context';
-
+import { ProductProvider } from './components/ProductList/context';
+import Modal from "./components/ProductList/Modal";
 
 class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-      <ProductProvider>
-        <MainLayout>
-          <Switch>
-            <Route exact path={"/"} component={WelcomePage} />
-            <Route exact path={"/FAQ"} component={FAQ} />
-            <Route exact path={"/contact"} component={Contact} />
-            <Route exact path={"/regulations"} component={Regulations} />
+        <ProductProvider>
+          <MainLayout>
+            <Switch>
+              <Route exact path={"/"} component={WelcomePage} />
+              <Route exact path={"/FAQ"} component={FAQ} />
+              <Route exact path={"/contact"} component={Contact} />
+              <Route exact path={"/regulations"} component={Regulations} />
 
-            <Route exact path={"/home"} component={ProductsList} />
-            <Route exact path={"/details"} component={Details} />
-            <Route exact path={"/cart"} component={Cart} />
-            <Route exact path={"/regulations"} component={Regulations} />
+              <Route exact path={"/home"} component={ProductsList} />
+              <Route exact path={"/details"} component={Details} />
+              <Route exact path={"/cart"} component={Cart} />
+              <Route exact path={"/regulations"} component={Regulations} />
 
-            <Route component={Default} />
-          </Switch>
-        </MainLayout>
+              <Route component={Default} />
+            </Switch>
+          </MainLayout>
+          <Modal />
         </ProductProvider>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     );
   }

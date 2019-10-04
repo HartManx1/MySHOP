@@ -21,7 +21,7 @@
   "homepage": "https://github.com/HartManx1/MySHOP#readme",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^3.4.1",
     "chalk": "^2.4.2",
     "classnames": "^2.2.6",
     "css-loader": "^3.2.0",
@@ -42,7 +42,8 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-scripts": "3.1.2",
+    "styled-components": "^4.4.0"
   },
   "browserslist": {
     "production": [

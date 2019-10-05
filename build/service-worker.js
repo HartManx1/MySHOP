@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HartManx1/MySHOP/precache-manifest.6d35fbd3d931c3dface7439a870f2f55.js"
+  "/HartManx1/MySHOP/precache-manifest.bd75f698538dbaf4085dafb7fc5410c0.js"
 );
 
 self.addEventListener('message', (event) => {

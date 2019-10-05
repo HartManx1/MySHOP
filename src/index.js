@@ -21,6 +21,7 @@ import { ProductProvider } from './components/ProductList/context';
 import Modal from "./components/ProductList/Modal";
 
 class App extends React.Component {
+
   render() {
     return (
       <BrowserRouter>
@@ -31,12 +32,10 @@ class App extends React.Component {
               <Route exact path={"/FAQ"} component={FAQ} />
               <Route exact path={"/contact"} component={Contact} />
               <Route exact path={"/regulations"} component={Regulations} />
-
               <Route exact path={"/home"} component={ProductsList} />
               <Route exact path={"/details"} component={Details} />
               <Route exact path={"/cart"} component={Cart} />
               <Route exact path={"/regulations"} component={Regulations} />
-
               <Route component={Default} />
             </Switch>
           </MainLayout>

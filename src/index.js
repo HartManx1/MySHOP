@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './index.css';
 
 import { MainLayout } from "./components/MainLayout";
-import WelcomePage, { Root } from "./components/Root/Root";
+import WelcomePage from "./components/Root/Root";
 import { Home } from "./components/Home/Home";
 import { User, FAQ } from "./components/FAQ/FAQ";
 import { NoMatch } from "./components/NoMatch/NoMatch";

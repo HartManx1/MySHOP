@@ -1,3 +1,8 @@
 #modal {
     background: whitesmoke;
+    border-radius: 10px;
+}
+
+.btn_padd {
+    margin: 8px;
 }

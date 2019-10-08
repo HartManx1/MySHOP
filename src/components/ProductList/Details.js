@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { ProductConsumer } from './context'
 import { Link } from 'react-router-dom';
+import './Details.css';
 
 export default class Details extends Component {
     render() {
@@ -10,11 +11,8 @@ export default class Details extends Component {
                     const { id, company, img, info, price, title, inCart } =
                         value.detailProduct;
                     return (
-                        <div class="container py-5">
-                            {/* title */}
-                            <div class="title-details">
-                                <h1>{title}</h1>
-                            </div>
+                        <div>
+
                             {/*product info */}
                             <div class="img-details">
                                 <img src={img} class="img-fluid" alt="product" />
@@ -37,9 +35,10 @@ export default class Details extends Component {
                                 {/*buttons*/}
                                 <div>
                                     <Link to='/home'>
-                                        <button>Back to products</button>
+                                        <button class="example_b">Back to products</button>
                                     </Link>
                                     <button
+                                        class="example_b btn_add"
                                         cart
                                         disabled={inCart ? true : false}
                                         onClick={() => {

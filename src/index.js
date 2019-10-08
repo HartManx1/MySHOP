@@ -2,6 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
+
 import './index.css';
 
 import { MainLayout } from "./components/MainLayout";
@@ -25,8 +26,9 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <ProductProvider>
-          <MainLayout>
+
+        <MainLayout>
+          <ProductProvider>
             <Switch>
               <Route exact path={"/"} component={WelcomePage} />
               <Route exact path={"/FAQ"} component={FAQ} />
@@ -35,13 +37,14 @@ class App extends React.Component {
               <Route exact path={"/home"} component={ProductsList} />
               <Route exact path={"/details"} component={Details} />
               <Route exact path={"/cart"} component={Cart} />
-              <Route exact path={"/regulations"} component={Regulations} />
               <Route component={Default} />
             </Switch>
-          </MainLayout>
-          <Modal />
-        </ProductProvider>
-        <Footer />
+            <Modal />
+            <Footer />
+          </ProductProvider>
+        </MainLayout>
+
+
       </BrowserRouter>
     );
   }

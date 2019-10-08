@@ -9,22 +9,12 @@ import Axios from "axios";
 
 export default class ProductList extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            product: [],
-            activePage: 1,
-            itemsCountPerPage: 1,
-            totalItemsCount: 1
-        };
-    }
-
-    handlePageChange(pageNumber) {
-        console.log(`active page is ${pageNumber}`);
-        this.setState({ activePage: pageNumber });
-    }
+ 
 
     render() {
+
+        //if (window.location.pathname === '/home') return null;
+
         return (
             <div class="products">
                 <h2>Our Products</h2>
@@ -35,7 +25,7 @@ export default class ProductList extends Component {
                         })
                     }}
                 </ProductConsumer>
-                <div>
+                {/*<div>
                     <Pagination
                         activePage={this.state.activePage}
                         itemsCountPerPage={5}
@@ -46,7 +36,16 @@ export default class ProductList extends Component {
                         linkClass='page-link'
                     />
                 </div>
+                {/*<nav className="">
+                    <h6>All right reserved</h6>
+                    <Link to="/home">HOME</Link>
+                    <Link to="/faq">FAQ</Link>
+                    <Link to="/contact">CONTACT</Link>
+                    <Link to="/regulations">REGULATIONS</Link>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><span className="fab fa-facebook-f"></span></a>
+                </nav>*/}
             </div>
+
         );
     }
 }

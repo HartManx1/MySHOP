@@ -14,7 +14,7 @@ export const Header = props => {
 
       <nav>
         <NavLink exact to="/" activeClassName="active">
-          <button>X</button>
+          <div class="arrow-btn" align="center"><i class="fas fa-arrow-left example_b"></i></div>
         </NavLink>
         <NavLink exact to="/home" activeClassName="active">
           HOME
@@ -29,7 +29,7 @@ export const Header = props => {
           REGULATIONS
         </NavLink>
         <NavLink exact to="/cart" activeClassName="active" class="ml-auto">
-          <button>
+          <button class="example_b">
           <i class="fas fa-shopping-cart"></i>
           My cart
           </button>

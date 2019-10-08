@@ -1,13 +1,9 @@
 .intro {
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
+    margin-top: 150px;
 }
 
-h1 {
-    font-size: 40px;
-    margin-top: 120px;
-    margin-bottom: 30px;
-}
 
 .intro_button {
     font-family: 'Shadows Into Light', cursive;

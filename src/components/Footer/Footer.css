@@ -1,12 +1,47 @@
-.Footer {
+.footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-top: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 40px;
 }
 
 h6 {
     position: absolute;
     left: 20px;
+    margin: 0;
+    left: 5%;
+}
+
+a,
+a:visited {
+  color: black;
+}
+a.active {
+  color: #c5b13ce7;
+}
+nav a {
+  margin: 15px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+nav {
+  float: right;
+  margin: 20px 80px 10px 10px;
+  text-decoration: none;
+}
+
+p {
+  float: left;
+}
+
+img {
+  float: 0;
 }
 

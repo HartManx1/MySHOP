@@ -1,9 +1,16 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  margin: 28px;
+  height:100%;
   }
 
   .container {
-    
+    min-height:100%;
+    margin-top: 40px;
   }
+
+  h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
   

@@ -11,7 +11,7 @@ export default class Product extends Component {
         const { id, title, img, price, inCart } = this.props.product;
         return (
             <div class="product_wrapper">
-                <div class="card">
+                <div class="product">
                     <ProductConsumer>
                         {value => (
                             <div
@@ -24,7 +24,7 @@ export default class Product extends Component {
                                     <img class="product-img" src={img} alt="product" />
                                 </Link>
                                 <button
-                                    class="cart-btn"
+                                    class="example_b cart_btn"
                                     disabled={inCart ? true : false}
                                     onClick={() => {
                                         value.addToCart(id);
@@ -44,11 +44,11 @@ export default class Product extends Component {
                         )}
                     </ProductConsumer>
                     {/* card footer*/}
-                    <div class="card-footer d-flex justyfy-content-between">
+                    <div class="prod_footer ">
                         <p class="align-self-center mb-0">
                             {title}
                         </p>
-                        <h5 class="text-blue">
+                        <h5 class="">
                             <span class="mr-1">$</span>
                             {price}
                         </h5>
@@ -59,12 +59,4 @@ export default class Product extends Component {
     }
 }
 
-Product.propTypes = {
-    product: PropTypes.shape({
-        id: PropTypes.number,
-        img: PropTypes.string,
-        title: PropTypes.string,
-        price: PropTypes.number,
-        inCart: PropTypes.bool
-    }).isRequired
-};
+

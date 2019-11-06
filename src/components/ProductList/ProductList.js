@@ -9,7 +9,7 @@ import Axios from "axios";
 
 export default class ProductList extends Component {
 
- 
+
 
     render() {
 
@@ -18,6 +18,9 @@ export default class ProductList extends Component {
         return (
             <div class="products">
                 <h2>Our Products</h2>
+                <div>
+                    <input type="text" placeholder="Search..." />
+                </div>
                 <ProductConsumer>
                     {value => {
                         return value.products.map(product => {

@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/HartManx1/MySHOP/issues"
   },
-  "homepage": "https://HartManx1.io/MySHOP",
+  "homepage": "https://HartManx1.github.io/MySHOP",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "bootstrap": "^3.4.1",

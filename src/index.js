@@ -25,7 +25,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/MySHOP/">
 
         <MainLayout>
           <ProductProvider>

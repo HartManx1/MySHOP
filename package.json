@@ -17,10 +17,7 @@
   },
   "author": "Martin Hartman",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HartManx1/MySHOP/issues"
-  },
-  "homepage": "https://HartManx1.github.io/MySHOP",
+  "bugs": {},
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "bootstrap": "^3.4.1",

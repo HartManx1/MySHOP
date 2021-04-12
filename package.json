@@ -1,4 +1,5 @@
 {
+  "homepage": "https://HartManx1.github.io/MySHOP",
   "name": "myshop",
   "version": "1.0.0",
   "description": "",
@@ -26,7 +27,7 @@
     "css-loader": "^3.2.0",
     "eslint": "^6.4.0",
     "file-loader": "^4.2.0",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "husky": "^3.0.5",
     "node-sass": "^4.12.0",
     "react-magnifier": "^3.0.1",

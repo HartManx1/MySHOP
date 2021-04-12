@@ -41,7 +41,7 @@
     "uglifyjs-webpack-plugin": "^2.2.0"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-js-pagination": "^3.0.2",

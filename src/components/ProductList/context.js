@@ -84,8 +84,6 @@ class ProductProvider extends Component {
         product.total = product.count * product.price;
 
         this.setState(() => { return { cart: [...tempCart] } }, () => { this.addTotals() })
-
-
     }
 
     decrement = (id) => {
@@ -104,7 +102,6 @@ class ProductProvider extends Component {
             product.total = product.count * product.price;
             this.setState(() => { return { cart: [...tempCart] } }, () => { this.addTotals() })
         }
-
     }
 
     removeItem = (id) => {

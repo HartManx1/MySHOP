@@ -6,7 +6,7 @@ export const storeProducts = [
     price: 100,
     company: "SUPREME",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Mary J tee, SS19. Supreme is an American skateboarding lifestyle brand established in New York City in April 1994. The brand is targeted at the skateboarding and hip hop cultures, and youth culture in general. The brand produces clothes and accessories and also manufactures skateboards.",
     inCart: false,
     count: 0,
     total: 0

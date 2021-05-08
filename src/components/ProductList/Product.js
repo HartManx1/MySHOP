@@ -35,10 +35,10 @@ export default class Product extends Component {
                                         <p class="text-capitalize mb-0" disabled>
                                             {" "}
                                             in Cart
-                                 </p>
+                                        </p>
                                     ) : (
-                                            <i class="fas fa-shopping-cart" />
-                                        )}
+                                        <i class="fas fa-shopping-cart" />
+                                    )}
                                 </button>
                             </div>
                         )}

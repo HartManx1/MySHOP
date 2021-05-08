@@ -12,12 +12,9 @@ export default class Details extends Component {
                         value.detailProduct;
                     return (
                         <div>
-
-                            {/*product info */}
                             <div class="img-details">
                                 <img src={img} class="img-fluid" alt="product" />
                             </div>
-                            {/*product info */}
                             <div class="name-product">
                                 <h3>Model: {title}</h3>
                                 <h4 class="name-company">
@@ -32,7 +29,6 @@ export default class Details extends Component {
                                     </strong>
                                 </h4>
                                 <p class="info-product">{info}</p>
-                                {/*buttons*/}
                                 <div>
                                     <Link to='/home'>
                                         <button class="example_b">Back to products</button>
